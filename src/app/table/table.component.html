@@ -1,0 +1,23 @@
+<div class="container">
+
+    <h1>Employee Table</h1><hr>
+<table class="table table-bordered">
+    <thead>
+        <th>Srno</th>
+        <th>fname</th>
+        <th>lname</th>
+        <th>email</th>
+        <th>contact</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let stu of stuarr;let i=index">
+            <td>{{i+1}}</td>
+            <td>{{stu.fname}}</td>
+            <td>{{stu.lname}}</td>
+            <td>{{stu.email}}</td>
+            <td>{{stu.contact}}</td>
+        </tr>
+    </tbody>
+</table>
+
+</div>
